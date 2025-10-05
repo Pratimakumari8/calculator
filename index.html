@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="body1">
+            <label>Physics:
+                <input id="p" min="0" max="99" type="number"/>
+            </label>
+            <br />
+            <label>Chemistry:
+                <input id="c" min="0" max="99" type="number"/>
+            </label>
+            <br />
+            <label>Biology:
+                <input id="b" min="0" max="99" type="number"/>
+            </label>
+            <br />
+            <label>Mathematics:
+                <input id="m" min="0" max="99" type="number"/>
+            </label>
+            <br />
+            <button id="btn1" type="button" onClick = "generate()">Generate Percentage</button>
+        </div>
+        <div id="ans">
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

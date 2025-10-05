@@ -1,0 +1,25 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: lightblue;
+      display: flex;
+      height: 100vh; /* Full viewport height */
+    margin: 0;
+    justify-content: center; /* Horizontal center */
+    align-items: center; 
+    color: white;
+}
+
+label input {
+  margin-left: 20px; 
+  border-radius: 5px;
+    margin-bottom: 10px;
+    width: 100px;
+    height: 20px;
+    font-size: bold;
+    padding: 5px;
+}
+#ans{
+    color: black;
+    font-weight: 500;
+    
+}
